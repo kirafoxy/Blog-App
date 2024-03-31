@@ -1,0 +1,117 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    background-image: url(./images/cce1bd49817b67c50041cb207b5f51f0.gif);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: 100%;
+    color: #fff;
+
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+input{
+    box-sizing: border-box;
+    font-weight:400;
+    padding: 5px 5px;
+    padding: 5px 5px;
+    font-size:32px;
+}
+
+.row{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    
+}
+
+.posts{
+    line-height: 300px;
+    font-size: 32px;
+    text-align: center;
+
+    padding-bottom: 20px;
+}
+
+.post{
+    width:300px;
+    text-align: left;
+    padding: 0px 10px;
+   
+}
+
+.column_right{
+    width: 500px;
+    max-height: 400px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: #ffffffce;
+    color: black;
+}
+
+/* overflow: auto;
+-ms-overflow-style: none;
+/* scrollbar-width: none; 
+/* если надо скрыть скролл но не хочется терять функцию */
+
+.input-title-post{
+    display: block;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 60px;
+    background-color: #ffffffce;
+}
+
+.input-post{
+    font-size: 32px;
+    width: 500px;
+    height: 350px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: #ffffffce;
+}
+
+.new-post-btn{
+    display: block;
+    width:500px;
+    height:60px;
+    background-color: #950b0bdf;
+    border: none;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+
+}
+
+.counter-box{
+    position: relative;
+    
+}
+  
+.counter-text{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    color: black;
+}
+
+.post__date{
+    color: rgb(13, 36, 94);
+    font-style: italic;
+}
+
+.validationMessage{
+    margin-top: 20px;
+    color: red;
+}
+
+.validationMessage_hidden{
+    display: none;
+}
+
+
+
