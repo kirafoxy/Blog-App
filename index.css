@@ -2,7 +2,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     background-image: url(./images/cce1bd49817b67c50041cb207b5f51f0.gif);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     box-sizing: border-box;
     background-size: 100%;
     color: #fff;
@@ -32,12 +32,11 @@ input{
     line-height: 30px;
     font-size: 32px;
     text-align: center;
-
     padding-bottom: 20px;
 }
 
 .post{
-    width:300px;
+    background-color: #ffffffce;
     text-align: left;
     padding: 0px 10px;
    
@@ -49,7 +48,6 @@ input{
     overflow: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    background-color: #ffffffce;
     color: black;
 }
 
@@ -98,10 +96,20 @@ input{
     bottom: 5px;
     color: black;
 }
+.post__title{
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+
+.post__text{
+    font-size: 25px;
+}
 
 .post__date{
-    color: rgb(13, 36, 94);
-    font-style: italic;
+    color: rgb(4, 58, 193);
+    font-size: 20px;
+    text-align: right;
 }
 
 .validationMessage{
