@@ -130,9 +130,10 @@ function renderPosts() {
         postsHTML += 
 
         `   <div class="post">
-            <p class="post__date"> ${post.dt}</p>
+            
             <p class="post__title"> ${post.title}</p>
             <p class="post__text"> ${post.text} </p>
+            <p class="post__date"> ${post.dt}</p>
         
             </div>`;
     });
